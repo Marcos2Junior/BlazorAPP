@@ -1,0 +1,8 @@
+﻿@page "/"
+
+<h1>@Mensagem</h1>
+<input @bind="@Mensagem"/>
+
+@code{
+    private string Mensagem { get; set; } = "Olá, Blazor!";
+}
